@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-bottom: 2px solid black;
+    width: 97%;
+}
+
+.header-title {
+    font-size: 2em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.header-title button {
+    align-items: end;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-left: 130vh;
+}
+
+#backButton {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#backButton:hover {
+    background-color: #333;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.post {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.post-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.post-content {
+    margin-bottom: 10px;
+}
+
+.post-author {
+    font-style: italic;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid black;
+    padding: 20px;
+    width: 97%;
+    background-color: #f1f1f1;
+}
+
+.footer-content p, .footer-credits p {
+    margin: 5px 0;
+}
+
+.footer-credits {
+    display: flex;
+    align-items: center;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode header, .dark-mode footer {
+    background-color: black;
+    color: white;
+}
+
+

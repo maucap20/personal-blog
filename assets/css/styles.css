@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    height: 80vh;
+    border: 2px solid black;
+}
+
+.left-pane, .right-pane {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-pane {
+    background-color: #ffdd57;
+}
+
+.left-pane .logo {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.right-pane {
+    background-color: #f9f9f9;
+    flex-direction: column;
+}
+
+form h2 {
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+body.light-mode {
+    background-color: white;
+    color: black;
+}
+
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+body.dark-mode header, body.dark-mode footer {
+    background-color: black;
+    color: white;
+}
